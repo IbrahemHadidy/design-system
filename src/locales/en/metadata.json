@@ -1,0 +1,83 @@
+{
+  "Brand": "Placeholder",
+  "Home": {
+    "title": "Welcome to Placeholder!",
+    "description": "Discover our unique collection of modern, high-quality products."
+  },
+  "Login": {
+    "title": "Login",
+    "description": "Sign in to access your account and manage your orders easily."
+  },
+  "Register": {
+    "title": "Create an Account",
+    "description": "Join the Placeholder family and start shopping today!"
+  },
+  "Welcome": {
+    "title": "Welcome",
+    "description": "Step into the world of Placeholder — where elegance meets quality."
+  },
+  "Product": {
+    "title": "Product Page",
+    "description": "Discover our modern, high-quality products."
+  },
+  "Products": {
+    "title": "All Products",
+    "description": "Browse our complete collection of products and find what you love."
+  },
+  "Categories": {
+    "title": "Shop by Category",
+    "description": "Explore our wide range of categories to find exactly what you need."
+  },
+  "FAQs": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to the most common questions about our products, orders, and policies."
+  },
+  "ContactUs": {
+    "title": "Contact Us",
+    "description": "Reach out to our support team for any inquiries, feedback, or assistance."
+  },
+  "AboutUs": {
+    "title": "About Us",
+    "description": "Learn more about our story, mission, and values. Discover how we strive to provide exceptional products and services that meet your needs and exceed your expectations."
+  },
+  "Cart": {
+    "title": "Shopping Cart",
+    "description": "Review your selected items and proceed to checkout quickly and easily."
+  },
+  "Favorite": {
+    "title": "Favorites",
+    "description": "Browse your favorite products and save your selections for later."
+  },
+  "Notifications": {
+    "title": "Notifications",
+    "description": "Stay updated with the latest alerts, messages, and updates relevant to your account and activities."
+  },
+  "ProfileSettings": {
+    "title": "Profile Settings",
+    "description": "Manage your personal information, account preferences, and security settings to keep your profile up to date."
+  },
+  "MyAddresses": {
+    "title": "My Addresses",
+    "description": "View, add, or edit your saved addresses for faster and more convenient checkouts."
+  },
+  "OrderHistory": {
+    "title": "Order History",
+    "description": "Track your past orders, review details, and monitor the status of current deliveries."
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "Learn how we collect, use, and protect your personal information to ensure your privacy and security."
+  },
+  "TermsAndConditions": {
+    "title": "Terms and Conditions",
+    "description": "Review the rules and conditions that govern your use of our website and services."
+  },
+  "RefundPolicy": {
+    "title": "Refund Policy",
+    "description": "Understand the guidelines and procedures for requesting refunds on your purchases."
+  },
+  "CancellationPolicy": {
+    "title": "Cancellation Policy",
+    "description": "Read our policy on order cancellations, including conditions and time limits for submitting requests."
+  }
+}

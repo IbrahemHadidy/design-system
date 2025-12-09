@@ -1,0 +1,30 @@
+{
+  "contactUs": "اتصل بنا",
+  "home": "الرئيسية",
+  "sendUsMessage": "أرسل لنا رسالة",
+  "sendUsMessageDescription": "يسعدنا سماع رأيك! سواء كان لديك سؤال، ملاحظة، أو طلب، ما عليك سوى ملء النموذج وسيتواصل معك فريقنا في أقرب وقت ممكن.",
+  "fullname": "الاسم الكامل",
+  "email": "البريد الإلكتروني",
+  "phone": "رقم الهاتف",
+  "location": "الموقع",
+  "message": "الرسالة",
+  "fullnamePlaceholder": "أدخل اسمك الكامل",
+  "emailPlaceholder": "أدخل بريدك الإلكتروني",
+  "phonePlaceholder": "أدخل رقم هاتفك",
+  "messagePlaceholder": "اكتب رسالتك هنا...",
+  "send": "إرسال",
+  "successTitle": "تم إرسال الرسالة بنجاح!",
+  "failureTitle": "فشل في إرسال الرسالة",
+  "okay": "حسنًا",
+  "later": "لاحقًا",
+  "Errors": {
+    "fullnameRequired": "الاسم الكامل مطلوب.",
+    "invalidFullname": "يرجى إدخال اسم كامل صالح (على الأقل {min} أحرف).",
+    "emailRequired": "البريد الإلكتروني مطلوب.",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صالح.",
+    "messageRequired": "الرسالة مطلوبة.",
+    "messageLength": "يجب أن تحتوي الرسالة على {min} أحرف على الأقل.",
+    "phoneTooShort": "رقم الهاتف قصير جدًا.",
+    "invalidPhone": "يرجى إدخال رقم هاتف صالح."
+  }
+}

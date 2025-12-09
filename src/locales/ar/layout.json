@@ -1,0 +1,76 @@
+{
+  "LanguageSelector": {
+    "en": "الإنجليزية",
+    "ar": "العربية"
+  },
+  "Loading": {
+    "description": "جارٍ تحميل المحتوى، يرجى الانتظار…"
+  },
+  "Header": {
+    "support": "الدعم (971) 728208909",
+    "signUpAnd": "انشئ حساب و",
+    "getOff": "احصل على خصم {discount}٪",
+    "forYourFirstOrder": "لطلبك الاول",
+    "signUpNow": "انشئ حساب الان",
+    "home": "الرئيسية",
+    "ourCategories": "أقسامنا",
+    "allProducts": "جميع المنتجات",
+    "aboutUs": "من نحن",
+    "contactUs": "تواصل معنا",
+    "faqs": "الأسئلة الشائعة",
+    "logout": "تسجيل الخروج",
+    "logoutDescription": "سيتم تسجيل خروجك من حسابك.",
+    "logIn": "تسجيل الدخول",
+    "menu": "القائمة",
+    "cart": "السلة",
+    "notifications": "الإشعارات",
+    "favorite": "المفضلة",
+    "myProfile": "ملفي الشخصي",
+    "generalSettings": "الإعدادت العامة",
+    "myAddress": "عنواني",
+    "orderHistory": "سجل الطلبات",
+    "language": "اللغة",
+    "description": "هل أنت متأكد أنك تريد تسجيل الخروج؟ ستحتاج لتسجيل الدخول مرة أخرى للوصول إلى حسابك.",
+    "cancel": "إلغاء",
+    "loggedOut": "تم تسجيل الخروج"
+  },
+  "Footer": {
+    "home": "الرئيسية",
+    "contactUs": "اتصل بنا",
+    "letUsHelp": "المساعدة",
+    "myAccount": "حسابي",
+    "faqs": "الأسئلة الشائعة",
+    "contactAndSupport": "الدعم والتواصل",
+    "categories": "الأقسام",
+    "allProducts": "جميع المنتجات",
+    "sendEmail": "اشترك ليصلك كل جديد",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "send": "اشترك",
+    "followUs": "تابعنا",
+    "policies": "السياسات",
+    "refundPolicy": "سياسة الاسترجاع",
+    "aboutUs": "من نحن",
+    "cancellationPolicy": "سياسة الإلغاء",
+    "termsAndConditions": "الشروط والأحكام",
+    "privacyPolicy": "سياسة الخصوصية",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صالح.",
+    "copyRight": "MyCompany™. جميع الحقوق محفوظة.",
+    "weAccept": "نقبل الدفع عبر",
+    "downloadApp": "حمّل تطبيقنا من App Store أو Google Play للطلب السهل، والحجوزات، والعروض الحصرية.",
+    "contactUsHeaderTitle": "هل أنت مستعد للبدء؟",
+    "contactUsHeaderDescription": "الهدف من قسم الأسئلة الشائعة هو تقديم معلومات حول الأسئلة أو الاستفسارات المتكررة."
+  },
+  "AuthRoute": {
+    "loading": "جاري التحميل، يرجى الانتظار...",
+    "redirecting": "جارٍ إعادة التوجيه...",
+    "loginRequired": "تسجيل الدخول مطلوب",
+    "loginRequiredDescription": "يجب تسجيل الدخول للاستمرار في استخدام ميزاتنا.",
+    "cancel": "إلغاء",
+    "ok": "تسجيل الدخول"
+  },
+  "PrivateRoute": {
+    "loading": "جاري التحميل، يرجى الانتظار...",
+    "redirecting": "جارٍ إعادة التوجيه صفحة تسجيل الدخول...",
+    "loginRequired": "يرجى تسجيل الدخول للوصول إلى هذه الصفحة."
+  }
+}

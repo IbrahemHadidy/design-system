@@ -1,0 +1,38 @@
+{
+  "Input": {
+    "showPassword": "عرض كلمة المرور",
+    "hidePassword": "اخفاء كلمة المرور"
+  },
+  "FileUpload": {
+    "completed": "تم التحميل",
+    "uploading": "{percent}٪",
+    "attachmentLabel": "المرفق: {title}",
+    "removeAttachment": "إزالة المرفق {title}",
+    "uploadProgress": "تقدم التحميل للمرفق {title}",
+    "fileSize": "حجم الملف {size}",
+    "uploadedAttachments": "المرفقات المحملة"
+  },
+  "Chart": {
+    "thisChartShows": "يُظهر هذا الرسم البياني {title}.",
+    "defaultTitle": "مخطط بيانات"
+  },
+  "ThemeSheet": {
+    "openAppearance": "فتح المظهر",
+    "appearance": "المظهر",
+    "close": "إغلاق",
+    "chooseThemeAndMode": "اختر ألوان المظهر وطريقة العرض. التغييرات ستطبق فوراً.",
+    "themeMode": "وضع المظهر",
+    "chooseLightDarkSystem": "اختر الوضع الفاتح، الداكن، أو اتبع إعدادات النظام.",
+    "currentMode": "الوضع الحالي",
+    "cycle": "تغيير",
+    "colorThemes": "ألوان المظهر",
+    "chooseAccentPalette": "اختر لوحة الألوان للتطبيق.",
+    "activeTheme": "المظهر النشط",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "systemMode": "وضع النظام (حاليًا {mode})",
+    "selectedMode": "الوضع المحدد: {mode}",
+    "unselectedMode": "الوضع غير المحدد: {mode}"
+  }
+}

@@ -1,0 +1,299 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+/* Base styles */
+@layer base {
+  /* Global styles */
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    letter-spacing: var(--tracking-normal);
+  }
+
+  /* Utility helpers */
+  .h-fill {
+    height: fill-available;
+    height: -webkit-fill-available;
+  }
+
+  .min-h-fill {
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+  }
+
+  .w-fill {
+    width: fill-available;
+    width: -webkit-fill-available;
+  }
+
+  .min-w-fill {
+    min-width: fill-available;
+    min-width: -webkit-fill-available;
+  }
+
+  /* Motion Reduction */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation: none !important;
+      transition: none !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* Theme tokens */
+@theme inline {
+  /* Core colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-dark: color-mix(in oklab, var(--primary) 40%, black);
+  --color-primary-light: color-mix(in oklab, var(--primary) 40%, white);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  /* Semantic colors */
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-destructive-light: var(--destructive-light);
+  --color-destructive-light-foreground: var(--destructive-light-foreground);
+
+  --color-error: var(--error);
+  --color-error-foreground: var(--error-foreground);
+  --color-error-light: var(--error-light);
+  --color-error-light-foreground: var(--error-light-foreground);
+
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-success-light: var(--success-light);
+  --color-success-light-foreground: var(--success-light-foreground);
+
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-light: var(--warning-light);
+  --color-warning-light-foreground: var(--warning-light-foreground);
+
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --color-info-light: var(--info-light);
+  --color-info-light-foreground: var(--info-light-foreground);
+
+  --color-loading: var(--loading);
+  --color-loading-foreground: var(--loading-foreground);
+  --color-loading-light: var(--loading-light);
+  --color-loading-light-foreground: var(--loading-light-foreground);
+
+  /* UI elements */
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-shadow-color: var(--shadow-color);
+
+  /* Sidebar */
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+
+  /* Chart */
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Typography */
+  --font-sans: Inter, sans-serif;
+  --font-serif: Source Serif 4, serif;
+  --font-mono: JetBrains Mono, monospace;
+
+  /* Radius */
+  --radius: 0.625rem;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  /* Letter spacing */
+  --tracking-normal: var(--tracking-normal);
+  --tracking-tighter: calc(var(--tracking-normal) - 0.05em);
+  --tracking-tight: calc(var(--tracking-normal) - 0.025em);
+  --tracking-wide: calc(var(--tracking-normal) + 0.025em);
+  --tracking-wider: calc(var(--tracking-normal) + 0.05em);
+  --tracking-widest: calc(var(--tracking-normal) + 0.1em);
+
+  /* Shadows */
+  --shadow: var(--shadow);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+  --shadow-2xs: var(--shadow-2xs);
+
+  --shadow-offset-x: var(--shadow-offset-x);
+  --shadow-offset-y: var(--shadow-offset-y);
+  --shadow-blur: var(--shadow-blur);
+  --shadow-spread: var(--shadow-spread);
+  --shadow-opacity: var(--shadow-opacity);
+
+  /* Motion / Durations */
+  --duration-fast: 150ms;
+  --duration-medium: 300ms;
+  --duration-slow: 500ms;
+
+  /* Border widths */
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 4px;
+
+  /* Ring widths */
+  --ring-width-small: 2px;
+  --ring-width-medium: 4px;
+
+  /* Z-index tokens */
+  --z-header: 900;
+  --z-dropdown: 1000;
+  --z-modal: 1100;
+  --z-toast: 1200;
+  --z-tooltip: 1300;
+
+  /* Button sizes */
+  --btn-size-sm: 32px;
+  --btn-size-md: 40px;
+  --btn-size-lg: 48px;
+
+  /* Icon sizes */
+  --icon-size-sm: 16px;
+  --icon-size-md: 24px;
+  --icon-size-lg: 32px;
+
+  /* Font sizes */
+  --font-size-3xs: 0.5rem;
+  --font-size-2xs: 0.625rem;
+  --font-size-xlp: 1.375rem;
+  --font-size-2xlp: 1.625rem;
+  --font-size-3xlp: 2rem;
+}
+
+/* Base Token Values */
+.light {
+  --radius: 0.65rem;
+
+  --destructive: oklch(0.75 0.21 25);
+  --destructive-foreground: oklch(0.45 0.21 25);
+  --destructive-light: color-mix(in oklab, var(--destructive) 55%, white);
+  --destructive-light-foreground: color-mix(in oklab, var(--destructive-foreground) 65%, white);
+
+  --error: oklch(0.92 0.2 25);
+  --error-foreground: oklch(0.38 0.2 25);
+  --error-light: color-mix(in oklab, var(--error) 55%, white);
+  --error-light-foreground: color-mix(in oklab, var(--error-foreground) 60%, white);
+
+  --success: oklch(0.92 0.12 130);
+  --success-foreground: oklch(0.33 0.12 130);
+  --success-light: color-mix(in oklab, var(--success) 60%, white);
+  --success-light-foreground: color-mix(in oklab, var(--success-foreground) 60%, white);
+
+  --warning: oklch(0.94 0.25 90);
+  --warning-foreground: oklch(0.38 0.25 90);
+  --warning-light: color-mix(in oklab, var(--warning) 55%, white);
+  --warning-light-foreground: color-mix(in oklab, var(--warning-foreground) 60%, white);
+
+  --info: oklch(0.94 0.2 240);
+  --info-foreground: oklch(0.38 0.2 240);
+  --info-light: color-mix(in oklab, var(--info) 55%, white);
+  --info-light-foreground: color-mix(in oklab, var(--info-foreground) 60%, white);
+
+  --loading: oklch(0.94 0.2 280);
+  --loading-foreground: oklch(0.38 0.2 280);
+  --loading-light: color-mix(in oklab, var(--loading) 55%, white);
+  --loading-light-foreground: color-mix(in oklab, var(--loading-foreground) 60%, white);
+}
+
+.dark {
+  --radius: 0.65rem;
+
+  --destructive: oklch(0.4 0.21 25);
+  --destructive-foreground: oklch(1 0 0);
+  --destructive-dark: color-mix(in oklab, var(--destructive) 50%, black);
+  --destructive-light: color-mix(in oklab, var(--destructive) 40%, white);
+  --destructive-light-foreground: color-mix(in oklab, var(--destructive-foreground) 40%, white);
+
+  --error: oklch(0.3 0.22 25);
+  --error-foreground: oklch(0.95 0.22 25);
+  --error-dark: color-mix(in oklab, var(--error) 50%, black);
+  --error-light: color-mix(in oklab, var(--error) 40%, white);
+  --error-light-foreground: color-mix(in oklab, var(--error-foreground) 40%, white);
+
+  --success: oklch(0.3 0.14 130);
+  --success-foreground: oklch(0.95 0.14 130);
+  --success-dark: color-mix(in oklab, var(--success) 50%, black);
+  --success-light: color-mix(in oklab, var(--success) 40%, white);
+  --success-light-foreground: color-mix(in oklab, var(--success-foreground) 40%, white);
+
+  --warning: oklch(0.3 0.28 90);
+  --warning-foreground: oklch(0.95 0.28 90);
+  --warning-dark: color-mix(in oklab, var(--warning) 50%, black);
+  --warning-light: color-mix(in oklab, var(--warning) 40%, white);
+  --warning-light-foreground: color-mix(in oklab, var(--warning-foreground) 40%, white);
+
+  --info: oklch(0.3 0.22 240);
+  --info-foreground: oklch(0.95 0.22 240);
+  --info-dark: color-mix(in oklab, var(--info) 50%, black);
+  --info-light: color-mix(in oklab, var(--info) 40%, white);
+  --info-light-foreground: color-mix(in oklab, var(--info-foreground) 40%, white);
+
+  --loading: oklch(0.3 0.22 280);
+  --loading-foreground: oklch(0.95 0.22 280);
+  --loading-dark: color-mix(in oklab, var(--loading) 50%, black);
+  --loading-light: color-mix(in oklab, var(--loading) 40%, white);
+  --loading-light-foreground: color-mix(in oklab, var(--loading-foreground) 40%, white);
+}
+
+/* Utilities */
+@utility text-3xs {
+  font-size: var(--font-size-3xs);
+}
+
+@utility text-2xs {
+  font-size: var(--font-size-2xs);
+}
+
+@utility text-xlp {
+  font-size: var(--font-size-xlp);
+}
+
+@utility text-2xlp {
+  font-size: var(--font-size-2xlp);
+}
+
+@utility text-3xlp {
+  font-size: var(--font-size-3xlp);
+}

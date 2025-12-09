@@ -1,0 +1,22 @@
+{
+  "PrivacyPolicy": {
+    "home": "Home",
+    "title": "Privacy Policy",
+    "error": "We’re sorry, the privacy policy could not be loaded. Please try again later."
+  },
+  "RefundPolicy": {
+    "home": "Home",
+    "title": "Refund Policy",
+    "error": "We’re sorry, the refund policy could not be loaded. Please try again later."
+  },
+  "CancellationPolicy": {
+    "home": "Home",
+    "title": "Cancellation Policy",
+    "error": "We’re sorry, the cancellation policy could not be loaded. Please try again later."
+  },
+  "TermsAndConditions": {
+    "home": "Home",
+    "title": "Terms of Service",
+    "error": "We’re sorry, the terms and conditions could not be loaded. Please try again later."
+  }
+}

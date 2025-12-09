@@ -1,0 +1,75 @@
+{
+  "LanguageSelector": {
+    "en": "English",
+    "ar": "Arabic"
+  },
+  "Loading": {
+    "description": "Loading content, please wait…"
+  },
+  "Header": {
+    "support": "Support (971) 728208909",
+    "signUpAnd": "Sign Up and",
+    "getOff": "Get {discount}% off",
+    "forYourFirstOrder": "for your first order",
+    "signUpNow": "Sign Up Now",
+    "home": "Home",
+    "ourCategories": "Our Categories",
+    "allProducts": "All Products",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "faqs": "FAQs",
+    "logout": "Logout",
+    "logoutDescription": "You will be signed out of your account.",
+    "logIn": "Login",
+    "menu": "Menu",
+    "cart": "Cart",
+    "notifications": "Notifications",
+    "favorite": "Favorite",
+    "myProfile": "My Profile",
+    "generalSettings": "General Settings",
+    "myAddress": "My Address",
+    "orderHistory": "Order History",
+    "language": "Language",
+    "cancel": "Cancel",
+    "loggedOut": "You have been logged out"
+  },
+  "Footer": {
+    "home": "Home",
+    "contactUs": "Contact Us",
+    "letUsHelp": "Let us help",
+    "myAccount": "My Account",
+    "faqs": "FAQs",
+    "contactAndSupport": "Contact & Support",
+    "categories": "Categories",
+    "allProducts": "All Products",
+    "sendEmail": "Stay Updated",
+    "emailPlaceholder": "Enter your email address",
+    "send": "Subscribe",
+    "followUs": "Follow Us",
+    "policies": "Policies",
+    "refundPolicy": "Refund Policy",
+    "aboutUs": "About Us",
+    "cancellationPolicy": "Cancellation Policy",
+    "termsAndConditions": "Terms & Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "invalidEmail": "Please enter a valid email.",
+    "copyRight": "MyCompany™. All rights reserved.",
+    "weAccept": "We Accept",
+    "downloadApp": "Download our app from the App Store or Google Play for easy ordering, reservations, and exclusive offers.",
+    "contactUsHeaderTitle": "Ready To Get Started",
+    "contactUsHeaderDescription": "The purpose of a FAQ is generally to provide information on frequent questions or concerns."
+  },
+  "AuthRoute": {
+    "loading": "Loading, please wait...",
+    "redirecting": "Redirecting...",
+    "loginRequired": "Login Required",
+    "loginRequiredDescription": "You need to log in to continue using our features.",
+    "cancel": "Cancel",
+    "ok": "Login"
+  },
+  "PrivateRoute": {
+    "loading": "Loading, please wait...",
+    "redirecting": "Redirecting to login...",
+    "loginRequired": "Please log in to access this page."
+  }
+}

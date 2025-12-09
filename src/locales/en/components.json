@@ -1,0 +1,38 @@
+{
+  "Input": {
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
+  },
+  "FileUpload": {
+    "completed": "Completed",
+    "uploading": "{percent}%",
+    "attachmentLabel": "Attachment: {title}",
+    "removeAttachment": "Remove attachment {title}",
+    "uploadProgress": "Upload progress for {title}",
+    "fileSize": "File size {size}",
+    "uploadedAttachments": "Uploaded attachments"
+  },
+  "Chart": {
+    "thisChartShows": "This chart shows {title}.",
+    "defaultTitle": "Data chart"
+  },
+  "ThemeSheet": {
+    "openAppearance": "Open Appearance",
+    "appearance": "Appearance",
+    "close": "Close",
+    "chooseThemeAndMode": "Choose theme colors and display mode. Changes apply instantly.",
+    "themeMode": "Theme Mode",
+    "chooseLightDarkSystem": "Choose light, dark, or follow your system setting.",
+    "currentMode": "Current mode",
+    "cycle": "Cycle",
+    "colorThemes": "Color Themes",
+    "chooseAccentPalette": "Choose the app’s accent palette.",
+    "activeTheme": "Active theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "systemMode": "System mode (currently {mode})",
+    "selectedMode": "Selected mode: {mode}",
+    "unselectedMode": "Unselected mode: {mode}"
+  }
+}

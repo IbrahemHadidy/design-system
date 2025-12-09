@@ -1,0 +1,7 @@
+{
+  "home": "Home",
+  "myNotifications": "My Notifications",
+  "youHaveNo": "You Have ({count}) Notification",
+  "clearAll": "Clear All",
+  "noItems": "There are no notifications to show at the moment"
+}
