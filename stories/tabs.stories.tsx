@@ -2,8 +2,8 @@ import preview from '#storybook/preview';
 import { Button } from '@/components/ui/buttons/button';
 import { Card } from '@/components/ui/card';
 import { Checkbox } from '@/components/ui/checkbox';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
+import { Input } from '@/components/ui/field/input';
+import { Label } from '@/components/ui/field/label';
 import { Tabs, type TabType } from '@/components/ui/tabs';
 
 const tabsSample: TabType[] = [

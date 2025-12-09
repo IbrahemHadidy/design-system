@@ -1,5 +1,5 @@
 import preview from '#storybook/preview';
-import { Input, inputVariants } from '@/components/ui/input';
+import { Input, inputVariants } from '@/components/ui/field/input';
 import { useState } from 'react';
 import { LuFlaskConical, LuFlaskRound, LuLock, LuMail, LuSearch } from 'react-icons/lu';
 

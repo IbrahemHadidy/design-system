@@ -1,5 +1,5 @@
 import preview from '#storybook/preview';
-import { InputField } from '@/components/ui/input-field';
+import { InputField } from '@/components/ui/field/input-field';
 import { useState } from 'react';
 
 const meta = preview.meta({

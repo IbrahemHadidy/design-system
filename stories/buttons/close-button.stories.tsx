@@ -1,6 +1,6 @@
 import preview from '#storybook/preview';
 import { buttonVariants } from '@/components/ui/buttons/button';
-import { CloseButton, iconMap } from '@/components/ui/close-button';
+import { CloseButton, iconMap } from '@/components/ui/buttons/close-button';
 
 const variants = ['default', 'secondary', 'outline'] as const;
 
@@ -62,7 +62,7 @@ export const Playground = meta.story({
 // Render all combinations
 export const AllCombinations = meta.story({
   render: (args) => {
-    const icons = ['x', 'rounded', 'circle'] as const;
+    const icons = ['x', 'circle'] as const;
 
     return (
       <div className="space-y-6">
