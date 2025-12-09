@@ -12,7 +12,6 @@ export default defineMain({
     name: '@storybook/nextjs-vite',
     options: {},
   },
-  staticDirs: ['../public'],
   viteFinal: async (config) => {
     config.resolve = {
       ...config.resolve,
