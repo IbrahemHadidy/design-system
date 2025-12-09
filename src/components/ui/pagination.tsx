@@ -1,5 +1,5 @@
 import { buttonVariants, type ButtonProps } from '@/components/ui/buttons/button';
-import { Input } from '@/components/ui/input';
+import { Input } from '@/components/ui/field/input';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import type { ComponentProps, MouseEvent, RefObject } from 'react';
 import {
