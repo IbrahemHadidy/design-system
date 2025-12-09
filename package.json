@@ -59,10 +59,6 @@
     "typescript": "^5.9.3"
   },
   "pnpm": {
-    "overrides": {
-      "react-is": "^19.2.0",
-      "rimraf": "^6.1.2"
-    },
     "onlyBuiltDependencies": [
       "@swc/core",
       "core-js",
