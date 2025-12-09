@@ -81,8 +81,8 @@ function useChart() {
 type ChartContainerProps = ComponentProps<'div'> & {
   config: ChartConfig;
   children: ComponentProps<typeof ResponsiveContainer>['children'];
-  width?: number | string;
-  height?: number | string;
+  width?: number | `${number}%`;
+  height?: number | `${number}%`;
   ariaLabel?: string;
   ariaDescription?: string;
   isDecorative?: boolean;

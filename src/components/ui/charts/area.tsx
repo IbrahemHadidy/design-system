@@ -17,8 +17,8 @@ interface ChartAreaProps {
   title?: number | string;
   chartData: Array<Record<string, unknown>>;
   chartConfig: ChartConfig;
-  containerHeight?: number | string;
-  containerWidth?: number | string;
+  containerHeight?: number | `${number}%`;
+  containerWidth?: number | `${number}%`;
   xKey: string;
   xAxisPosition?: 'top' | 'bottom';
   yAxisPosition?: 'left' | 'right';

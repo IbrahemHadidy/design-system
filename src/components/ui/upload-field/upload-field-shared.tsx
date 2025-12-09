@@ -1,12 +1,12 @@
 'use client';
 
 import { Button } from '@/components/ui/buttons/button';
-import { ClockUploadIcon, CloudUploadIcon } from '@/components/ui/icons';
 import { Separator } from '@/components/ui/separator';
 import { motion } from 'motion/react';
 import { useCallback, useState, type ReactNode } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { LuUpload } from 'react-icons/lu';
+import { PiUpload, PiUploadSimple } from 'react-icons/pi';
 import { cn } from 'tailwind-variants';
 
 interface DropAreaProps {
@@ -92,7 +92,7 @@ function MinimalFileUpload({
         >
           {isDragging ? (
             <>
-              <CloudUploadIcon className="text-primary size-10 animate-bounce" />
+              <PiUploadSimple className="text-primary size-10 animate-bounce" />
               <div className="flex flex-col gap-1">
                 <span className="text-primary text-center text-xs font-medium tracking-wide transition-colors duration-200">
                   Drop your files here
@@ -104,7 +104,7 @@ function MinimalFileUpload({
             </>
           ) : (
             <>
-              <CloudUploadIcon className="text-primary size-9" />
+              <PiUploadSimple className="text-primary size-9" />
               <div className="flex flex-col gap-1">
                 <span className="text-xs font-medium">
                   Drag your file(s) or{' '}
@@ -229,7 +229,7 @@ function ExtendedFileUpload({
     >
       <div className="flex items-center gap-4">
         <div className="border-border rounded-full border p-4">
-          <ClockUploadIcon className="text-foreground size-6" />
+          <PiUpload className="text-foreground size-6" />
         </div>
         <div className="flex flex-col justify-center gap-0.5">
           <span className="text-sm font-medium">Upload files</span>
@@ -258,7 +258,7 @@ function ExtendedFileUpload({
         >
           {isDragging ? (
             <div className="flex w-full flex-col items-center justify-center gap-3">
-              <ClockUploadIcon className="text-foreground size-10 animate-bounce" />
+              <PiUpload className="text-foreground size-10 animate-bounce" />
               <span className="text-foreground text-center text-sm font-medium tracking-wide transition-colors duration-200">
                 Choose a file or drag & drop it here
               </span>
@@ -267,7 +267,7 @@ function ExtendedFileUpload({
           ) : (
             <>
               <div className="flex w-full flex-col items-center justify-center gap-3">
-                <ClockUploadIcon className="text-foreground size-10" />
+                <PiUpload className="text-foreground size-10" />
                 <span className="text-foreground text-center text-sm font-medium tracking-wide transition-colors duration-200">
                   Choose a file or drag & drop it here
                 </span>

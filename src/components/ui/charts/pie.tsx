@@ -69,8 +69,8 @@ function ChartPie({
           label={({ cx, cy, midAngle, innerRadius, outerRadius, value }) => {
             const radius = innerRadius + (outerRadius - innerRadius) / 2;
             const RADIAN = Math.PI / 180;
-            const x = cx + radius * Math.cos(-midAngle * RADIAN);
-            const y = cy + radius * Math.sin(-midAngle * RADIAN);
+            const x = cx + radius * Math.cos(-(midAngle ?? 0) * RADIAN);
+            const y = cy + radius * Math.sin(-(midAngle ?? 0) * RADIAN);
             const percent = Math.round((value / total) * 100);
 
             return (

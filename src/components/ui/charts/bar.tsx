@@ -8,7 +8,7 @@ import {
   ChartTooltipContent,
   type ChartConfig,
 } from '@/components/ui/charts/chart';
-import { RadioGroupTab } from '@/components/ui/radio-group-tab';
+import { RadioGroupTab } from '@/components/ui/radio-group/radio-group-tab';
 import { useTranslations } from 'next-intl';
 import { useId, useState, type ReactNode } from 'react';
 import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from 'recharts';
@@ -19,8 +19,8 @@ interface ChartBarProps {
   chartData: Array<Record<string, unknown>>;
   chartConfig: ChartConfig;
 
-  containerHeight?: number | string;
-  containerWidth?: number | string;
+  containerHeight?: number | `${number}%`;
+  containerWidth?: number | `${number}%`;
 
   barSize?: number;
   barRadius?: number;
